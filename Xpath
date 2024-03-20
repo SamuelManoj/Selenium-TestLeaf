@@ -1,0 +1,43 @@
+Relative Xpath
+
+    1. Attribute Based
+            //tagname[@attribute='value']
+            partial syntax - //tagname[contains(@attribute,'value')]
+
+    2. Text Based
+            //tagname[text()='text']
+            partial syntax - //tagname[contains(text(),'text')]
+
+    3. Collection Based
+            (relative_xpath)[index]
+            ---------> use only if the index has 1 or 2 (max 3)
+
+
+Axis Xpath
+
+    1. Immediate Relationship
+           a. Parent Child Relationship
+                    Syntax: Parent-xpath/child-tag-name
+
+           b. Child Parent Relationship
+                    Syntax: Child-xpath/parent::tag-name
+
+           C. Grand Parent-Grant Child Relationship
+                    Syntax: Parent-xpath//child-tag-name
+
+           d. Grand Child-Grant Parent Relationship
+                    Syntax: Child-xpath/ancestor::tag-name
+
+
+    2. Distance Relationship
+            a. Elder Sibling Relationship
+                    Syntax: sibling-xpath/preceding-sibling::elder-tag-name
+
+            b. Younger Sibling Relationship
+                    Syntax: sibling-xpath/following-sibling::younger-tag-name
+
+            c. Elder Cousin Relationship
+                    Syntax: xpath/preceding::elder-cousin-tag-name
+
+            d. Younger Cousin Relationship
+                    Syntax: xpath/following::younger-cousin-tag-name
