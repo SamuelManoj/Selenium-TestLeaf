@@ -13,7 +13,7 @@ public class ArmstrongNumber {
         if (result == originalnumber) {
             System.out.println("This is armstrong");
         } else {
-            System.out.println("This is not armstrong");
+            System.out.println("This is not armstrong"); 
         }
     }
 }
