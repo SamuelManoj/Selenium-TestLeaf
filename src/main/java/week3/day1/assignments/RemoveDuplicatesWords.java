@@ -1,6 +1,7 @@
 package week3.day1.assignments;//package week3.day1.assignments;
 
 import java.util.Arrays;
+
 public class RemoveDuplicatesWords {
     public static void main(String[] args) {
         //a) Use the declared String text as input
@@ -14,11 +15,11 @@ public class RemoveDuplicatesWords {
         String[] arr_text = text.split(" ");
 
 //	 * d) Initialize another loop to check whether the word is there in the array
-        for(int i=0;i< arr_text.length;i++){
+        for (int i = 0; i < arr_text.length; i++) {
             String value = arr_text[i];
-            for(int j=i+1;j<arr_text.length;j++){
-                if(value.equals(arr_text[j])){
-                    arr_text[j]="";
+            for (int j = i + 1; j < arr_text.length; j++) {
+                if (value.equals(arr_text[j])) {
+                    arr_text[j] = "";
                 }
             }
             System.out.print(value + " ");
