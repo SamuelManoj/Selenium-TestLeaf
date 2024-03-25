@@ -1,0 +1,8 @@
+1. Single Dimensional Dynamic Array
+    1. List
+        a. ArrayList -> Index based algorithm
+        b. LinkedList -> Node based algorithm(prev, next)
+    2. Set
+
+2. Multi Dimensional Dynamic Array
+    1. Map
