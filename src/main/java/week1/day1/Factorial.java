@@ -9,6 +9,8 @@ public class Factorial {
      * output: 5*4*3*2*1 = 120
      *
      * Shortcuts:
+     *
+     *
      * 1) Print : type: syso, followed by: ctrl + space + enter
      * 2) To create a 'for' loop: type 'for', followed by ctrl + space + down arrow + enter
      *
